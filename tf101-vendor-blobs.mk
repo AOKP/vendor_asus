@@ -21,10 +21,17 @@
 #    vendor/asus/tf101/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
 #    vendor/asus/tf101/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
+
+#bin folder
 PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/tf101/proprietary/bin/glgps:system/bin/glgps \
+    vendor/asus/tf101/proprietary/bin/pppd_btdun:system/bin/pppd_btdun
+#etc
+PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/etc/asound.conf:system/etc/asound.conf \
+	vendor/asus/tf101/proprietary/etc/BtService.sh:system/etc/BtService.sh \
+	vendor/asus/tf101/proprietary/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
@@ -41,7 +48,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_wmadec.axf:system/etc/firmware/nvmm_wmadec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_wmaprodec.axf:system/etc/firmware/nvmm_wmaprodec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
-    vendor/asus/tf101/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/asus/tf101/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+
+#lib folder
+PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/asus/tf101/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/asus/tf101/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -115,7 +125,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/lib/libsensors.al3000a.so:system/lib/libsensors.al3000a.so \
     vendor/asus/tf101/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
     vendor/asus/tf101/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
-    vendor/asus/tf101/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
+    vendor/asus/tf101/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so
+
+#usr folder
+PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/asus/tf101/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/asus/tf101/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
