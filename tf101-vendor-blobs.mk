@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/etc/asound.conf:system/etc/asound.conf \
 	vendor/asus/tf101/proprietary/etc/BtService.sh:system/etc/BtService.sh \
-	vendor/asus/tf101/proprietary/bluetooth/main.conf:system/etc/bluetooth/main.conf \
+	vendor/asus/tf101/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
