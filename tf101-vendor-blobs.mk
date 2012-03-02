@@ -26,12 +26,15 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/tf101/proprietary/bin/glgps:system/bin/glgps \
-    vendor/asus/tf101/proprietary/bin/pppd_btdun:system/bin/pppd_btdun
+    vendor/asus/tf101/proprietary/bin/pppd_btdun:system/bin/pppd_btdun \
+    vendor/asus/tf101/proprietary/bin/wifimacwriter:system/bin/wifimacwriter
+    
 #etc
 PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/etc/asound.conf:system/etc/asound.conf \
 	vendor/asus/tf101/proprietary/etc/BtService.sh:system/etc/BtService.sh \
 	vendor/asus/tf101/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
+    vendor/asus/tf101/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
@@ -49,6 +52,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_wmaprodec.axf:system/etc/firmware/nvmm_wmaprodec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
     vendor/asus/tf101/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+
+#data folder
+PRODUCT_COPY_FILES += \
+vendor/asus/tf101/proprietary/data/srs_processing.cfg:system/data/srs_processing.cfg
 
 #lib folder
 PRODUCT_COPY_FILES += \
