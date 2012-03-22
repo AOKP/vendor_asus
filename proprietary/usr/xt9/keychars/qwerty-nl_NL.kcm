@@ -496,3 +496,9 @@ key SPACE {
     alt, ctrl, meta:                    none
 }
 
+key EUROPE_2 {
+    label, number:                      '\\'
+    base:                               '\\'
+    shift:                              '|'
+    alt, ctrl, meta:                    none
+}

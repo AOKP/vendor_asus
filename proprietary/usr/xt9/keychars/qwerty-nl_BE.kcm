@@ -474,3 +474,9 @@ key SLASH {
     capslock+alt+shift:                 '\u0303'
     ctrl, meta:                         none
 }
+
+key SPACE {
+    label, number:                      ' '
+    base:                               ' '
+    alt, ctrl, meta:                    none
+}

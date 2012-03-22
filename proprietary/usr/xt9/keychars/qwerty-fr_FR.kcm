@@ -481,3 +481,9 @@ key SLASH {
     capslock+shift:                     '!'
     alt, ctrl, meta:                    none
 }
+
+key SPACE {
+    label, number:                      ' '
+    base:                               ' '
+    alt, ctrl, meta:                    none
+}

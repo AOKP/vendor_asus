@@ -435,3 +435,9 @@ key SLASH {
     shift:                              '_'
     alt, ctrl, meta:                    none
 }
+
+key SPACE {
+    label, number:                      ' '
+    base:                               ' '
+    alt, ctrl, meta:                    none
+}
