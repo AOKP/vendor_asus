@@ -21,20 +21,18 @@
 #    vendor/asus/tf101/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
 #    vendor/asus/tf101/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
-
-#bin folder
 PRODUCT_COPY_FILES += \
+    vendor/asus/tf101/proprietary/app/Keyboard.apk:system/app/Keyboard.apk \
+    vendor/asus/tf101/proprietary/app/XT9IME.apk:system/app/XT9IME.apk \
     vendor/asus/tf101/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/tf101/proprietary/bin/glgps:system/bin/glgps \
     vendor/asus/tf101/proprietary/bin/pppd_btdun:system/bin/pppd_btdun \
-    vendor/asus/tf101/proprietary/bin/wifimacwriter:system/bin/wifimacwriter
-
-#etc
-PRODUCT_COPY_FILES += \
+    vendor/asus/tf101/proprietary/bin/wifimacwriter:system/bin/wifimacwriter \
+    vendor/asus/tf101/proprietary/data/srs_processing.cfg:system/data/srs_processing.cfg \
     vendor/asus/tf101/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/asus/tf101/proprietary/etc/BtService.sh:system/etc/BtService.sh \
-    vendor/asus/tf101/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/asus/tf101/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
+    vendor/asus/tf101/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
@@ -51,14 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_wmadec.axf:system/etc/firmware/nvmm_wmadec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvmm_wmaprodec.axf:system/etc/firmware/nvmm_wmaprodec.axf \
     vendor/asus/tf101/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
-    vendor/asus/tf101/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
-
-#data folder
-PRODUCT_COPY_FILES += \
-vendor/asus/tf101/proprietary/data/srs_processing.cfg:system/data/srs_processing.cfg
-
-#lib folder
-PRODUCT_COPY_FILES += \
+    vendor/asus/tf101/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/asus/tf101/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/asus/tf101/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/asus/tf101/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -76,6 +67,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/asus/tf101/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/asus/tf101/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
+    vendor/asus/tf101/proprietary/lib/libchinesetrace.so:system/lib/libchinesetrace.so \
+    vendor/asus/tf101/proprietary/lib/libjni_xt9input.so:system/lib/libjni_xt9input.so \
+    vendor/asus/tf101/proprietary/lib/libjni_xt9kcm.so:system/lib/libjni_xt9kcm.so \
+    vendor/asus/tf101/proprietary/lib/libjni_xt9korean.so:system/lib/libjni_xt9korean.so \
+    vendor/asus/tf101/proprietary/lib/libkeyboard_jni.so:system/lib/libkeyboard_jni.so \
     vendor/asus/tf101/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/asus/tf101/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/asus/tf101/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
@@ -128,20 +124,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/asus/tf101/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/asus/tf101/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
+    vendor/asus/tf101/proprietary/lib/libshapewriter.so:system/lib/libshapewriter.so \
     vendor/asus/tf101/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/asus/tf101/proprietary/lib/libsensors.al3000a.so:system/lib/libsensors.al3000a.so \
     vendor/asus/tf101/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
     vendor/asus/tf101/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
     vendor/asus/tf101/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
-    vendor/asus/tf101/proprietary/lib/libchinesetrace.so:system/lib/libchinesetrace.so \
-    vendor/asus/tf101/proprietary/lib/libjni_xt9input.so:system/lib/libjni_xt9input.so \
-    vendor/asus/tf101/proprietary/lib/libjni_xt9kcm.so:system/lib/libjni_xt9kcm.so \
-    vendor/asus/tf101/proprietary/lib/libjni_xt9korean.so:system/lib/libjni_xt9korean.so \
-    vendor/asus/tf101/proprietary/lib/libkeyboard_jni.so:system/lib/libkeyboard_jni.so \
-    vendor/asus/tf101/proprietary/lib/libshapewriter.so:system/lib/libshapewriter.so
-
-#usr folder
-PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/asus/tf101/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/asus/tf101/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
@@ -162,29 +150,23 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/usr/keychars/asusec.kcm:system/usr/keychars/asusec.kcm \
     vendor/asus/tf101/proprietary/usr/keylayout/asusec.kl:system/usr/keylayout/asusec.kl \
     vendor/asus/tf101/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    vendor/asus/tf101/proprietary/usr/xt9/config/databases.conf:system/usr/xt9/config/databases.conf
-
-#usr/xt9/databases/kdb
-PRODUCT_COPY_FILES += \
+    vendor/asus/tf101/proprietary/usr/xt9/config/databases.conf:system/usr/xt9/config/databases.conf \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/ZHhpd_pinyin_bpmf_stroke_cangjie.kdb:system/usr/xt9/databases/kdb/ZHhpd_pinyin_bpmf_stroke_cangjie.kdb \
     vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/azerty.french.center.kdb:system/usr/xt9/databases/kdb/azerty.french.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/kohqd.kdb:system/usr/xt9/databases/kdb/kohqd.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.arabic.center.kdb:system/usr/xt9/databases/kdb/qwerty.arabic.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.danish.center.kdb:system/usr/xt9/databases/kdb/qwerty.danish.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.english.center.kdb:system/usr/xt9/databases/kdb/qwerty.english.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.farsi.center.kdb:system/usr/xt9/databases/kdb/qwerty.farsi.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.finish.center.kdb:system/usr/xt9/databases/kdb/qwerty.finish.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.greek.center.kdb:system/usr/xt9/databases/kdb/qwerty.greek.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.hebrew.center.kdb:system/usr/xt9/databases/kdb/qwerty.hebrew.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.norwegian.center.kdb:system/usr/xt9/databases/kdb/qwerty.norwegian.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.russian.center.kdb:system/usr/xt9/databases/kdb/qwerty.russian.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.swedish.center.kdb:system/usr/xt9/databases/kdb/qwerty.swedish.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.thai.center.kdb:system/usr/xt9/databases/kdb/qwerty.thai.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwertz.german.center.kdb:system/usr/xt9/databases/kdb/qwertz.german.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/reduced_azerty.french.center.kdb:system/usr/xt9/databases/kdb/reduced_azerty.french.center.kdb \
-vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/ZHhpd_pinyin_bpmf_stroke_cangjie.kdb:system/usr/xt9/databases/kdb/ZHhpd_pinyin_bpmf_stroke_cangjie.kdb
-
-#usr/xt9/databases/ldb
-PRODUCT_COPY_FILES += \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/kohqd.kdb:system/usr/xt9/databases/kdb/kohqd.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.arabic.center.kdb:system/usr/xt9/databases/kdb/qwerty.arabic.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.danish.center.kdb:system/usr/xt9/databases/kdb/qwerty.danish.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.english.center.kdb:system/usr/xt9/databases/kdb/qwerty.english.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.farsi.center.kdb:system/usr/xt9/databases/kdb/qwerty.farsi.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.finish.center.kdb:system/usr/xt9/databases/kdb/qwerty.finish.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.greek.center.kdb:system/usr/xt9/databases/kdb/qwerty.greek.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.hebrew.center.kdb:system/usr/xt9/databases/kdb/qwerty.hebrew.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.norwegian.center.kdb:system/usr/xt9/databases/kdb/qwerty.norwegian.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.russian.center.kdb:system/usr/xt9/databases/kdb/qwerty.russian.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.swedish.center.kdb:system/usr/xt9/databases/kdb/qwerty.swedish.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwerty.thai.center.kdb:system/usr/xt9/databases/kdb/qwerty.thai.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/qwertz.german.center.kdb:system/usr/xt9/databases/kdb/qwertz.german.center.kdb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/kdb/reduced_azerty.french.center.kdb:system/usr/xt9/databases/kdb/reduced_azerty.french.center.kdb \
     vendor/asus/tf101/proprietary/usr/xt9/databases/ldb/ARlsUN_xt9.ldb:system/usr/xt9/databases/ldb/ARlsUN_xt9.ldb \
     vendor/asus/tf101/proprietary/usr/xt9/databases/ldb/CSlsUN_xt9.ldb:system/usr/xt9/databases/ldb/CSlsUN_xt9.ldb \
     vendor/asus/tf101/proprietary/usr/xt9/databases/ldb/DAusUN_xt9.ldb:system/usr/xt9/databases/ldb/DAusUN_xt9.ldb \
@@ -208,96 +190,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/usr/xt9/databases/ldb/THlsUN_xt9.ldb:system/usr/xt9/databases/ldb/THlsUN_xt9.ldb \
     vendor/asus/tf101/proprietary/usr/xt9/databases/ldb/TRlsUN_xt9.ldb:system/usr/xt9/databases/ldb/TRlsUN_xt9.ldb \
     vendor/asus/tf101/proprietary/usr/xt9/databases/ldb/ZHsbUNps_GB2312_xt9.ldb:system/usr/xt9/databases/ldb/ZHsbUNps_GB2312_xt9.ldb \
-    vendor/asus/tf101/proprietary/usr/xt9/databases/ldb/ZHtbUNps_Big5_bpmf_pinyin_CJ_xt9.ldb:system/usr/xt9/databases/ldb/ZHtbUNps_Big5_bpmf_pinyin_CJ_xt9.ldb
-
-#usr/xt9/databases/mdb
-PRODUCT_COPY_FILES += \
-	vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/DE.txt:system/usr/xt9/databases/mdb/DE.txt \
-	vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/EN.txt:system/usr/xt9/databases/mdb/EN.txt \
-	vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/ES.txt:system/usr/xt9/databases/mdb/ES.txt \
-	vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/FR.txt:system/usr/xt9/databases/mdb/FR.txt \
-	vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/IT.txt:system/usr/xt9/databases/mdb/IT.txt
-
-#usr/xt9/keychars
-PRODUCT_COPY_FILES += \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-ar_EG.kcm:system/usr/xt9/keychars/qwerty-ar_EG.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-cs_CZ.kcm:system/usr/xt9/keychars/qwerty-cs_CZ.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-da_DK.kcm:system/usr/xt9/keychars/qwerty-da_DK.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-de_CH.kcm:system/usr/xt9/keychars/qwerty-de_CH.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-de_DE.kcm:system/usr/xt9/keychars/qwerty-de_DE.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-el_GR.kcm:system/usr/xt9/keychars/qwerty-el_GR.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-en_CA.kcm:system/usr/xt9/keychars/qwerty-en_CA.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-en_GB.kcm:system/usr/xt9/keychars/qwerty-en_GB.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-en_GR.kcm:system/usr/xt9/keychars/qwerty-en_GR.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-en_US.kcm:system/usr/xt9/keychars/qwerty-en_US.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-es_ES.kcm:system/usr/xt9/keychars/qwerty-es_ES.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-es_US.kcm:system/usr/xt9/keychars/qwerty-es_US.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-fa_IR.kcm:system/usr/xt9/keychars/qwerty-fa_IR.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-fi_FI.kcm:system/usr/xt9/keychars/qwerty-fi_FI.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-fr_BE.kcm:system/usr/xt9/keychars/qwerty-fr_BE.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-fr_CA.kcm:system/usr/xt9/keychars/qwerty-fr_CA.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-fr_CH.kcm:system/usr/xt9/keychars/qwerty-fr_CH.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-fr_FR.kcm:system/usr/xt9/keychars/qwerty-fr_FR.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-hu_HU.kcm:system/usr/xt9/keychars/qwerty-hu_HU.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-it_CH.kcm:system/usr/xt9/keychars/qwerty-it_CH.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-it_IT.kcm:system/usr/xt9/keychars/qwerty-it_IT.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-iw_IL.kcm:system/usr/xt9/keychars/qwerty-iw_IL.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-ko_KR.kcm:system/usr/xt9/keychars/qwerty-ko_KR.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-nb_NO.kcm:system/usr/xt9/keychars/qwerty-nb_NO.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-nl_BE.kcm:system/usr/xt9/keychars/qwerty-nl_BE.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-nl_NL.kcm:system/usr/xt9/keychars/qwerty-nl_NL.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-pl_PL.kcm:system/usr/xt9/keychars/qwerty-pl_PL.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-pt_BR.kcm:system/usr/xt9/keychars/qwerty-pt_BR.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-pt_PT.kcm:system/usr/xt9/keychars/qwerty-pt_PT.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-ru_RU.kcm:system/usr/xt9/keychars/qwerty-ru_RU.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-sk_SK.kcm:system/usr/xt9/keychars/qwerty-sk_SK.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-sv_SE.kcm:system/usr/xt9/keychars/qwerty-sv_SE.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-th_TH.kcm:system/usr/xt9/keychars/qwerty-th_TH.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-tr_TR.kcm:system/usr/xt9/keychars/qwerty-tr_TR.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-zh_CN.kcm:system/usr/xt9/keychars/qwerty-zh_CN.kcm \
-	vendor/asus/tf101/proprietary/usr/xt9/keychars/qwerty-zh_TW.kcm:system/usr/xt9/keychars/qwerty-zh_TW.kcm
-
-#usr/xt9/keylayout
-PRODUCT_COPY_FILES += \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-ar_EG.kl:system/usr/xt9/keylayout/qwerty-ar_EG.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-cs_CZ.kl:system/usr/xt9/keylayout/qwerty-cs_CZ.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-cs_CZ-qwerty.kl:system/usr/xt9/keylayout/qwerty-cs_CZ-qwerty.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-da_DK.kl:system/usr/xt9/keylayout/qwerty-da_DK.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-de_CH.kl:system/usr/xt9/keylayout/qwerty-de_CH.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-de_DE.kl:system/usr/xt9/keylayout/qwerty-de_DE.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-el_GR.kl:system/usr/xt9/keylayout/qwerty-el_GR.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-en_CA.kl:system/usr/xt9/keylayout/qwerty-en_CA.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-en_GB.kl:system/usr/xt9/keylayout/qwerty-en_GB.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-en_GR.kl:system/usr/xt9/keylayout/qwerty-en_GR.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-en_US.kl:system/usr/xt9/keylayout/qwerty-en_US.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-es_ES.kl:system/usr/xt9/keylayout/qwerty-es_ES.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-es_US.kl:system/usr/xt9/keylayout/qwerty-es_US.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fa_IR.kl:system/usr/xt9/keylayout/qwerty-fa_IR.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fi_FI.kl:system/usr/xt9/keylayout/qwerty-fi_FI.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fr_BE.kl:system/usr/xt9/keylayout/qwerty-fr_BE.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fr_CA.kl:system/usr/xt9/keylayout/qwerty-fr_CA.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fr_CH.kl:system/usr/xt9/keylayout/qwerty-fr_CH.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fr_FR.kl:system/usr/xt9/keylayout/qwerty-fr_FR.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-hu_HU.kl:system/usr/xt9/keylayout/qwerty-hu_HU.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-it_CH.kl:system/usr/xt9/keylayout/qwerty-it_CH.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-it_IT.kl:system/usr/xt9/keylayout/qwerty-it_IT.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-iw_IL.kl:system/usr/xt9/keylayout/qwerty-iw_IL.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-ko_KR.kl:system/usr/xt9/keylayout/qwerty-ko_KR.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-nb_NO.kl:system/usr/xt9/keylayout/qwerty-nb_NO.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-nl_BE.kl:system/usr/xt9/keylayout/qwerty-nl_BE.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-nl_NL.kl:system/usr/xt9/keylayout/qwerty-nl_NL.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-pl_PL.kl:system/usr/xt9/keylayout/qwerty-pl_PL.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-pt_BR.kl:system/usr/xt9/keylayout/qwerty-pt_BR.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-pt_PT.kl:system/usr/xt9/keylayout/qwerty-pt_PT.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-ru_RU.kl:system/usr/xt9/keylayout/qwerty-ru_RU.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-sk_SK.kl:system/usr/xt9/keylayout/qwerty-sk_SK.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-sv_SE.kl:system/usr/xt9/keylayout/qwerty-sv_SE.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-th_TH.kl:system/usr/xt9/keylayout/qwerty-th_TH.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-tr_TR.kl:system/usr/xt9/keylayout/qwerty-tr_TR.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-zh_CN.kl:system/usr/xt9/keylayout/qwerty-zh_CN.kl \
-	vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-zh_TW.kl:system/usr/xt9/keylayout/qwerty-zh_TW.kl
-
-#Asus keyboard application
-PRODUCT_COPY_FILES += \
-	vendor/asus/tf101/proprietary/app/Keyboard.apk:system/app/Keyboard.apk \
-	vendor/asus/tf101/proprietary/app/XT9IME.apk:system/app/XT9IME.apk
+    vendor/asus/tf101/proprietary/usr/xt9/databases/ldb/ZHtbUNps_Big5_bpmf_pinyin_CJ_xt9.ldb:system/usr/xt9/databases/ldb/ZHtbUNps_Big5_bpmf_pinyin_CJ_xt9.ldb \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/DE.txt:system/usr/xt9/databases/mdb/DE.txt \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/EN.txt:system/usr/xt9/databases/mdb/EN.txt \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/ES.txt:system/usr/xt9/databases/mdb/ES.txt \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/FR.txt:system/usr/xt9/databases/mdb/FR.txt \
+    vendor/asus/tf101/proprietary/usr/xt9/databases/mdb/IT.txt:system/usr/xt9/databases/mdb/IT.txt \
+    vendor/asus/tf101/proprietary/usr/xt9/keychars:system/usr/xt9/keychars \
+    vendor/asus/tf101/proprietary/usr/xt9/keylayout:system/usr/xt9/keylayout \
