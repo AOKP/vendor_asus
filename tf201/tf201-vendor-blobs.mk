@@ -31,6 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/asus/tf201/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/asus/tf201/proprietary/etc/dbus.conf:system/etc/dbus.conf \
+    vendor/asus/tf201/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/asus/tf201/proprietary/etc/u-blox.conf:system/etc/u-blox.conf \
     vendor/asus/tf201/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/asus/tf201/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/asus/tf201/proprietary/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
@@ -77,6 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
+    vendor/asus/tf201/proprietary/lib/hw/gpsdongle.tegra.so:system/lib/hw/gpsdongle.tegra.so \
+    vendor/asus/tf201/proprietary/lib/hw/gpsinternal.tegra.so:system/lib/hw/gpsinternal.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/lights.cardhu.so:system/lib/hw/lights.cardhu.so \
