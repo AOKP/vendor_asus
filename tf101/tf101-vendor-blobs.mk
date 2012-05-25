@@ -246,7 +246,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-es_ES.kl:system/usr/xt9/keylayout/qwerty-es_ES.kl \
     vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-es_US.kl:system/usr/xt9/keylayout/qwerty-es_US.kl \
     vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fa_IR.kl:system/usr/xt9/keylayout/qwerty-fa_IR.kl \
-    vend or/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fi_FI.kl:system/usr/xt9/keylayout/qwerty-fi_FI.kl \
+    vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fi_FI.kl:system/usr/xt9/keylayout/qwerty-fi_FI.kl \
     vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fr_BE.kl:system/usr/xt9/keylayout/qwerty-fr_BE.kl \
     vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fr_CA.kl:system/usr/xt9/keylayout/qwerty-fr_CA.kl \
     vendor/asus/tf101/proprietary/usr/xt9/keylayout/qwerty-fr_CH.kl:system/usr/xt9/keylayout/qwerty-fr_CH.kl \
