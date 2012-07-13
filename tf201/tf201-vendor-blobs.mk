@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/etc/firmware/nvrm_avp_e0000000.bin:system/etc/firmware/nvrm_avp_e0000000.bin \
     vendor/asus/tf201/proprietary/etc/firmware/nvrm_avp_eff00000.bin:system/etc/firmware/nvrm_avp_eff00000.bin \
     vendor/asus/tf201/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/asus/tf201/proprietary/etc/init.d/cpu_overclock:system/etc/init.d/cpu_overclock \
     vendor/asus/tf201/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/asus/tf201/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/asus/tf201/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
