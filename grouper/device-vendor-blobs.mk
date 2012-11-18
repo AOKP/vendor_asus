@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/grouper/proprietary/bin/glgps:system/bin/glgps \
     vendor/asus/grouper/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/grouper/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-    vendor/asus/grouper/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/asus/grouper/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
     vendor/asus/grouper/proprietary/etc/firmware/nvavp_os_00001000.bin:system/etc/firmware/nvavp_os_00001000.bin \
     vendor/asus/grouper/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
