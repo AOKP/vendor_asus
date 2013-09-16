@@ -16,14 +16,15 @@
 
 # Asus blob(s) necessary for Tilapia hardware
 PRODUCT_PACKAGES := \
+    apns-conf \
     btmacreader \
     camera.tegra3 \
     libdrmwvmplugin \
     libsensors.lightsensor \
     libwvm \
+    libxgold-ril \
     sensors.grouper \
-    sensors-config \
-    tf_daemon \
+    sensors-config
 
 # Broadcom blob(s) necessary for Tilapia hardware
 PRODUCT_PACKAGES += \
@@ -110,8 +111,3 @@ PRODUCT_PACKAGES += \
 # NXP blob(s) necessary for Tilapia hardware
 PRODUCT_PACKAGES += \
     libpn544_fw
-
-# Radio blob(s) nessiary for Tilapia hardware
-PRODUCT_PACKAGES += \
-    libxgold-ril
-

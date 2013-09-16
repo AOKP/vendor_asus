@@ -17,6 +17,16 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),tilapia)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := apns-conf
+LOCAL_SRC_FILES := apns-conf.xml
+LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := asus
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := btmacreader   
 LOCAL_MODULE_OWNER := broadcom
 LOCAL_SRC_FILES := btmacreader
