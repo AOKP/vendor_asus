@@ -91,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/asus/deb/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/asus/deb/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/asus/flo/proprietary/lib/libllvm-qcom.so:system/lib/libllvm-qcom.so \
     vendor/asus/deb/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/asus/deb/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/asus/deb/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
@@ -101,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/lib/libmmcamera_ov5693.so:system/lib/libmmcamera_ov5693.so \
     vendor/asus/deb/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/asus/deb/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/asus/flo/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/asus/deb/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/asus/deb/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/asus/deb/proprietary/lib/libqdp.so:system/lib/libqdp.so \
