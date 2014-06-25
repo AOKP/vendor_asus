@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -43,6 +43,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/deb/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/deb/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    vendor/asus/deb/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
+    vendor/asus/deb/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
+    vendor/asus/deb/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
+    vendor/asus/deb/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
+    vendor/asus/deb/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
